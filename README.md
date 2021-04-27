@@ -9,6 +9,16 @@ When everything is running, the endpoint is accesible at:
 
 http://localhost:3000 or http://billie.mars:3000
 
+## Dependecies
+
+Packages depencies are listed at composer.json, to install them you will also need to run the following:
+
+`composer install`
+
+If using vagrant make sure to first enter to the VM (since composer is already installed) using:
+
+`vagrant ssh`
+
 ## How to use
 
 This app includes an endpoint at `/mars`, you can pass a UTC date/datetime as parameter sending a GET request including the `utc` attribute (lowercase) containing the specified time.
