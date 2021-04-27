@@ -1,0 +1,7 @@
+/vendor
+/.idea
+Homestead.json
+.phpunit.result.cache
+.phpunit.cache
+.coverage
+.vagrant

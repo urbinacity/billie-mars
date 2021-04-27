@@ -1,0 +1,15 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 2
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    - map: ~/Projects/billie-mars
+      to: /home/vagrant/billie-mars
+sites:
+    - map: billie.mars
+      to: /home/vagrant/billie-mars/public
+name: billie-mars
+hostname: billie-mars
